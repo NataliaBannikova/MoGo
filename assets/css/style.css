@@ -27,7 +27,8 @@ hr {
 /* Container */
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1230px;
+	padding:  0 15px;
 	margin: 0 auto;
 }
 
@@ -1118,4 +1119,62 @@ hr {
 
 .copyright span {
 	color: #f38181;
+}
+
+
+@media (max-width: 1230px) {
+
+	/* Intro*/
+
+	.intro_subtitle {
+		font-size: 52 px;
+	}
+
+	.intro_title {
+		font-size: 120px;
+	}
+}
+
+@media (max-width: 990px) {
+
+	/* Intro*/
+	
+	.intro_subtitle {
+		font-size: 32 px;
+	}
+
+	.intro_title {
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 770px) {
+	
+	/* Nav*/
+	.nav {
+		display: none;
+	}
+
+	/* Slider*/
+	.slider_text {
+		display: none;
+	}
+
+	.slider_item.active:before {
+		width: 50%;
+	}
+	
+}
+
+@media (max-width: 575px) {
+
+	/* Intro*/
+	
+	.intro_subtitle {
+		font-size: 22 px;
+	}
+
+	.intro_title {
+		font-size: 40px;
+	}
 }
