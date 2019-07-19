@@ -280,13 +280,19 @@ hr {
 /* card */
 
 .card {
-	margin-top: 80px;
+	margin: 80px -15px 0;
 	display: flex;
 	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .card_item {
-	width: 380px;
+	width: 33.33333%;
+	padding: 0 15px;
 }
 
 .card_inner {
@@ -310,6 +316,8 @@ hr {
 .card_img img {
 	display: block;
 	transition: opacity .1s linear;
+	max-width: 100%;
+	height: auto;
 }
 
 .card_item:hover .card_img {
@@ -1159,6 +1167,23 @@ hr {
 
 	.section {
 		padding: 40px 0;
+	}
+
+	/* Card */
+	
+	.card {
+		margin-top: 50px;
+		justify-content: center;
+	}
+
+	.card_item {
+		width: 100%;
+		max-width: 410px;
+		margin-bottom: 20px;
+	}
+
+	.card_item:last-child {
+		margin-bottom: 0;
 	}
 
 	/* Slider*/
