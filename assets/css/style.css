@@ -470,11 +470,20 @@ hr {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
 
 }
 
 .wedo_item {
 	width: 50%;
+	padding: 0 15px;
+}
+
+.wedo_img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Accordion */
@@ -1260,6 +1269,16 @@ hr {
 
 	.services_icon {
 		left: 0;
+	}
+
+	/* Wedo */
+
+	.wedo_img {
+		display: none;
+	}
+
+	.wedo_item {
+		width: 100%;
 	}
 	
 }
