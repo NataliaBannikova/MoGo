@@ -451,6 +451,8 @@ hr {
 
 .devices_item {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .devices_item--iphone {
@@ -1212,6 +1214,10 @@ hr {
 	.section {
 		padding: 40px 0;
 	}
+	
+	.section_devices {
+		padding-bottom: 0;
+	}
 
 	/* Card */
 	
@@ -1302,4 +1308,17 @@ hr {
 	.stat_count {
 		font-size: 52px;
 	}
+
+	/* Devices */
+	
+	.devices {
+		max-width: 320px; 
+	}
+
+	.devices_item--iphone {
+		width: 180px;
+		bottom: -50px;
+		right: -80px;
+	}
+
 }
