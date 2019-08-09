@@ -571,6 +571,9 @@ hr {
 }
 
 .reviews_photo {
+	display: block;
+	width: 210px;
+	height: 210px;
 	border: 2px solid #95e1d3;
 	padding: 40px;
 	position: absolute;
@@ -1166,6 +1169,12 @@ hr {
 	.intro_title {
 		font-size: 120px;
 	}
+
+	/* Reviews */
+
+	.reviews_text {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 990px) {
@@ -1207,6 +1216,21 @@ hr {
 
 	.services_item--border {
 		border-bottom: 0;
+	}
+
+	/* Reviews */
+
+	.reviews {
+		padding: 0 60px;
+	}
+
+	.reviews_photo {
+		width: 150px;
+		height: 150px;
+	}
+
+	.reviews_item {
+		padding-left: 175px;
 	}
 
 }
@@ -1280,6 +1304,25 @@ hr {
 	.wedo_item {
 		width: 100%;
 	}
+
+	/* Reviews */
+
+	.reviews_photo {
+		position: static;
+		margin: 0 auto 20px;
+	}
+
+	.reviews_item {
+		padding-left: 0;
+	}
+
+	.reviews_text {
+		font-size: 16px;
+	}
+
+	.reviews_author {
+		font-size: 20px;
+	}
 	
 }
 
@@ -1340,4 +1383,12 @@ hr {
 		right: -80px;
 	}
 
-}
+	/* Reviews */
+
+	.reviews {
+		padding: 0;
+	}
+
+	.reviews_btn {
+		top: 18%;
+	}
