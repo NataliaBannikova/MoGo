@@ -673,6 +673,17 @@ hr {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 -15px;
+}
+
+.logos_item {
+	padding-left: 0 15px;
+}
+
+.logos_img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -1392,3 +1403,20 @@ hr {
 	.reviews_btn {
 		top: 18%;
 	}
+
+	/* Logos */
+
+	.logos {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.logos_item {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+
+	.logos_img {
+		margin: 0 auto;
+	}
+}
