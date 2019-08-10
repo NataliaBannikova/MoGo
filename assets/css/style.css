@@ -1334,6 +1334,17 @@ hr {
 	.reviews_author {
 		font-size: 20px;
 	}
+
+	/* Works */
+	
+	.works {
+		flex-wrap: wrap;
+	}
+
+	.works_col {
+		flex: none;
+		width: 50%;
+	}
 	
 }
 
@@ -1418,5 +1429,11 @@ hr {
 
 	.logos_img {
 		margin: 0 auto;
+	}
+
+	/* Works */
+	
+	.works_col {
+		width: 100%;
 	}
 }
