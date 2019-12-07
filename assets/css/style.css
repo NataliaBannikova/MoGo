@@ -91,6 +91,19 @@ hr {
 	z-index: 1000;
 }
 
+.header_fixed {
+	padding: 10px 0;
+	background-color: #eb8b8d;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+
+	transform: translate3d(0, 0, 0);
+}
+
 .header_inner {
 	display: flex;
 	justify-content: space-between;
@@ -153,8 +166,8 @@ hr {
 .nav-toggle {
 	position: absolute;
 	padding: 10px 0;
-	top: 30px;
-	right: 30px;
+	top: 24px;
+	right: 24px;
 	z-index: 1;
 	width: 30px;
 }
