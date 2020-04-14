@@ -185,6 +185,10 @@ hr {
 	cursor: pointer;
 }
 
+.nav-toggle:focus {
+	outline: 0;
+}
+
 .nav-toggle_item {
 	display: block;
 	width: 100%;
@@ -1403,6 +1407,10 @@ hr {
 		top: 100%;
 		left:0;
 		background-color: #eb8b8d;
+	}
+
+	.nav.active {
+		display: block;
 	}
 
 	.nav_link {
