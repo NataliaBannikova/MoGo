@@ -1345,7 +1345,7 @@ hr {
 
 	/* Reviews */
 
-	.reviews {
+	.reviews .slick-slider {
 		padding: 0 60px;
 	}
 
@@ -1612,11 +1612,11 @@ hr {
 
 	/* Reviews */
 
-	.reviews {
+	.reviews .slick-slider {
 		padding: 0;
 	}
 
-	.reviews_btn {
+	.slick-arrow {
 		top: 18%;
 	}
 
